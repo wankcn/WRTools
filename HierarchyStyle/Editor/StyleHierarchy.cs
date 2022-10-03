@@ -20,7 +20,7 @@ public class HierarchyStyle
     {
         // 点击ok返回true，点击cancel返回false；
         bool res = EditorUtility.DisplayDialog("一个没得感情的HierarchyStyle",
-            "点击确认后将会应用当前的HierarchyStyle", "好的", "哒咩");
+            "点击确认后将会应用HierarchyStyle,仅只需要在第一次进行初始化，之后的任何样式修改将会在Hierarchy实时自动生效。", "好的", "哒咩");
         if (res) DrawGUI();
     }
 
